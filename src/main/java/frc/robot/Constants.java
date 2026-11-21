@@ -26,7 +26,7 @@ public final class Constants {
   public static final boolean fuelGaugeOnRobot = false;
   public static final boolean intakeVisionOnRobot = false;
   public static final boolean shooterOnRobot = true;
-  public static final boolean secondControllerConnected = true;
+  public static final boolean secondControllerConnected = false;
 
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
@@ -111,7 +111,7 @@ public final class Constants {
   }
 
   public static class Swerve {
-    public static final double GLOBAL_SWERVE_MULT = 1.0;
+    public static final double GLOBAL_SWERVE_MULT = 0.3;
 
     public static final double FF_RADIUS_M2 = 0.1;
     public static final double MAX_TRANSLATIONAL_MOVEMENT_SQUARED = 0.0625;
